@@ -1,0 +1,18 @@
+.navList {
+    & li {
+        border-bottom: 3px solid;
+        border-color: transparent;
+        transition: border-bottom 150ms ease-in-out;
+        cursor: pointer;
+
+        @media (hover: hover) {
+            &:not(.active):hover {
+                border-color: hsla(0, 0%, 100%, 0.5);
+            }
+        }
+
+        &.active {
+            border-color: white;
+        }
+    }
+}

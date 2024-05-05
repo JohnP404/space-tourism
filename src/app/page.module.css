@@ -1,0 +1,14 @@
+.homeBg {
+    background: url("/assets/home/background-home-mobile.jpg") no-repeat;
+    background-size: cover;
+
+    @media (min-width: 768px) {
+        background: url("/assets/home/background-home-tablet.jpg") no-repeat;
+        background-size: cover;
+    }
+
+    @media (min-width: 1280px) {
+        background: url("/assets/home/background-home-desktop.jpg") no-repeat;
+        background-size: cover;
+    }
+}
